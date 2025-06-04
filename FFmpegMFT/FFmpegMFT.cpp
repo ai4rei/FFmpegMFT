@@ -1092,7 +1092,7 @@ HRESULT FFmpegMFT::ProcessOutput(
 				hr = MFCreateVideoSampleFromSurface(pSurface, &outputSample);
 				BREAK_ON_FAIL(hr);
 
-				m_pSampleOutMap.insert(pair<IDirect3DSurface9*,IMFSample*>(pSurface, outputSample));
+				m_pSampleOutMap.insert(std::pair<IDirect3DSurface9*,IMFSample*>(pSurface, outputSample));
 				Logger::getInstance().LogDebug("FFmpegMFT::ProcessOutput Add new surface/VideoSample to map surface=0x%x, sample=0x%x", pSurface, outputSample);
 			}			
 

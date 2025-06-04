@@ -14,7 +14,7 @@ class Configurator
 private:
 	Configurator()
 	{
-		const std::string initFile(string(PROPERTIES_FILE_STR));
+		const std::string initFile(std::string(PROPERTIES_FILE_STR));
 		
 		try
 		{			

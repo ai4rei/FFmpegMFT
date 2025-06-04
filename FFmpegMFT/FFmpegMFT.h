@@ -10,8 +10,6 @@
 #include <d3d9.h>
 #include <dxva2api.h>
 
-using namespace ATL;
-
 typedef std::map<IDirect3DSurface9*,IMFSample*> SampleToSurfaceMap;
 typedef SampleToSurfaceMap::iterator SampleToSurfaceMapIter;
 
