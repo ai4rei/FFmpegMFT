@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "hw_decoder_impl.h"
-#include "dbg.h"
 #include "Utils.h"
 #include "Configurator.h"
 

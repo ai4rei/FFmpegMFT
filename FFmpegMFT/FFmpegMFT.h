@@ -1,5 +1,7 @@
 #pragma once
 
+#include <map>
+
 #include "mftransform.h"
 #include "atlcore.h"
 #include "atlcomcli.h"
